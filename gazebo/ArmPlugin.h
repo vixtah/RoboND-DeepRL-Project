@@ -90,6 +90,8 @@ private:
 	int	    runHistoryMax;
 	bool     runHistory[20];
 
+	float totalReward;
+
 	physics::ModelPtr model;
 	event::ConnectionPtr updateConnection;
 	physics::JointController* j2_controller;
